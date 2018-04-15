@@ -8,8 +8,8 @@ public class HelloController {
 	
 	
 	@RequestMapping("/hello")
-	public Object hello(){
-		return "hello word";
+	public String hello(){
+		return "hello.jsp";
 	}
 
 }
